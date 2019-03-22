@@ -77,4 +77,4 @@ def quick_sort(items):
     small = quick_sort(small)
     large = quick_sort(large)
 
-return small + dup + large
+    return small + dup + large
