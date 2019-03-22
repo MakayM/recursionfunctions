@@ -14,6 +14,7 @@ def bubble_sort(items):
 def merge_sort(items):
 
     '''Return array of items, sorted in ascending order'''
+
     if len(items) >1:
             mid = len(items)//2 #Finding the mid of the array
             L = items[:mid] # Dividing the array elements
@@ -53,6 +54,23 @@ def merge_sort(items):
 def quick_sort(items):
 
     '''Return array of items, sorted in ascending order'''
+    """
+    the quick sort algorithm takes in an unsorted list of numbers.
+    returns a list in ascending order.
+
+    Parameters
+    ----------
+    items : list
+        list of unordered numbers
+    index: int, optional
+        index number at which to choose the split value
+        default set to the last item in the input list
+
+    Returns
+    -------
+    list
+        list of elements in items in ascending order
+    """
     index=-1
     len_i = len(items)
 
